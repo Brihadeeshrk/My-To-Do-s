@@ -96,6 +96,18 @@
                                     <action selector="addTapped:" destination="Hic-BV-6vd" eventType="touchUpInside" id="PCG-jk-za0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important Events Will Be Marked With:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVx-WD-7uN">
+                                <rect key="frame" x="56" y="417" width="263" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( ‼️) At The End" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5df-Ly-vCz">
+                                <rect key="frame" x="130" y="440" width="115" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -107,10 +119,14 @@
                             <constraint firstItem="d6o-2M-BHG" firstAttribute="centerX" secondItem="TFs-ME-W8Q" secondAttribute="centerX" id="KK3-8q-Q3U"/>
                             <constraint firstItem="w72-Qw-dSh" firstAttribute="top" secondItem="d6o-2M-BHG" secondAttribute="bottom" constant="20" id="S4L-mM-MjV"/>
                             <constraint firstItem="MMA-LR-XFk" firstAttribute="centerX" secondItem="TFs-ME-W8Q" secondAttribute="centerX" id="SJ1-Kz-Mge"/>
+                            <constraint firstItem="DVx-WD-7uN" firstAttribute="top" secondItem="MMA-LR-XFk" secondAttribute="bottom" constant="75" id="TUm-1w-bHH"/>
+                            <constraint firstItem="5df-Ly-vCz" firstAttribute="centerX" secondItem="TFs-ME-W8Q" secondAttribute="centerX" id="UGV-nc-cPt"/>
+                            <constraint firstItem="5df-Ly-vCz" firstAttribute="top" secondItem="DVx-WD-7uN" secondAttribute="bottom" constant="5" id="Zea-0P-hJj"/>
                             <constraint firstItem="w72-Qw-dSh" firstAttribute="leading" secondItem="TFs-ME-W8Q" secondAttribute="leadingMargin" constant="40" id="dXs-aB-E2A"/>
                             <constraint firstItem="w72-Qw-dSh" firstAttribute="centerX" secondItem="TFs-ME-W8Q" secondAttribute="centerX" id="h9c-me-dqm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="w72-Qw-dSh" secondAttribute="trailing" constant="40" id="o61-I8-E6k"/>
                             <constraint firstItem="cnL-fK-0PE" firstAttribute="top" secondItem="w72-Qw-dSh" secondAttribute="bottom" constant="40" id="pMg-hr-kRZ"/>
+                            <constraint firstItem="DVx-WD-7uN" firstAttribute="centerX" secondItem="TFs-ME-W8Q" secondAttribute="centerX" id="zGc-Fl-70B"/>
                         </constraints>
                     </view>
                     <connections>

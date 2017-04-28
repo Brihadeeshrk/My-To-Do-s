@@ -10,11 +10,12 @@ import UIKit
 
 class CompleteTaskViewController: UIViewController {
     
+//------------------------------------------------------------------------------------------------------------------
     @IBOutlet weak var taskLabel: UILabel!
     @IBOutlet weak var taskImportantLabel: UILabel!
-    
+//------------------------------------------------------------------------------------------------------------------
     var task : Task? = nil
-
+//------------------------------------------------------------------------------------------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
         if task!.important {
@@ -25,7 +26,7 @@ class CompleteTaskViewController: UIViewController {
         
         taskImportantLabel.text = "Importance Status: \(task!.important)"
     }
-    
+//------------------------------------------------------------------------------------------------------------------
     @IBAction func completeTapped(_ sender: Any) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
@@ -34,5 +35,5 @@ class CompleteTaskViewController: UIViewController {
         
         navigationController!.popViewController(animated: true)
     }
-    
+//------------------------------------------------------------------------------------------------------------------
 }
