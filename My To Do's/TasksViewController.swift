@@ -42,9 +42,9 @@ class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let task = tasks[indexPath.row]
         
         if task.important {
-            cell.textLabel?.text = "⭕️ -> \(task.name!) ‼️"
+            cell.textLabel?.text = "⇾ ❌ \(task.name!) ❌"
         } else {
-            cell.textLabel?.text = "⭕️ -> \(task.name!) "
+            cell.textLabel?.text = "⇾ \(task.name!) "
         }
         
         return cell
