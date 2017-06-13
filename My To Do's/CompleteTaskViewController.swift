@@ -24,7 +24,7 @@ class CompleteTaskViewController: UIViewController {
             taskLabel.text = "⇾ \(task!.name!) "
         }
         
-        taskImportantLabel.text = "Importance Status: \(task!.important)"
+        taskImportantLabel.text = "Important? \(task!.important)"
     }
 //------------------------------------------------------------------------------------------------------------------
     @IBAction func completeTapped(_ sender: Any) {
